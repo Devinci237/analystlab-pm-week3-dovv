@@ -1,6 +1,6 @@
 # AI-Powered Customer Intelligence Transformation Project
 
-**AnalystLab Africa — Project Management Internship, Week 3**
+**AnalystLab Africa - Project Management Internship, Week 3**
 **Author:** Devinci Ebaha Djoki ([LinkedIn](https://linkedin.com/in/ebaha-devinci))
 
 ## Overview
@@ -28,13 +28,13 @@ Week 3 formalises the project's schedule into a full network model: every one of
 | [Project Execution Plan](deliverables/week3/Dovv_Project_Execution_Plan_Week3.docx) | Governance, communication, task assignment, and escalation, calibrated against verified critical-path ownership by role, not assumed at the team level |
 | [Schedule Risk Assessment](deliverables/week3/Dovv_Schedule_Risk_Assessment.docx) | Six scheduling-specific risks, each grounded in the Critical Path Analysis rather than generic project risk language |
 
-### Notable design decisions — Week 3
+### Notable design decisions - Week 3
 
 - **The critical path was verified twice, not assumed once.** Every Total Float value was calculated independently through a Python reference implementation and cross-checked line by line against the Excel formulas before either was trusted, after an earlier Gantt chart iteration was found, on inspection, to render bars incorrectly despite appearing correct on screen.
 - **Critical-path ownership was checked role by role, not phase by phase.** An early draft of the Execution Plan claimed only two roles carried critical-path responsibility; re-verifying against the actual Assigned Resource data showed six different roles each own at least one critical-path task at different points in the 16-month timeline. The Execution Plan and Schedule Risk Assessment were corrected accordingly.
 - **Waiting periods are treated as real schedule elements, not gaps.** The three data-accumulation and three adoption-ramp-up periods are modelled as explicit tasks with duration, not implicit blank space, since they collectively account for the largest single block of critical-path time in the project (160 calendar days for the adoption ramp-up alone).
 
-## Week 1–2: Initiation and Execution Planning
+## Week 1-2: Initiation and Execution Planning
 
 | Document | Description |
 |---|---|
@@ -47,7 +47,7 @@ Week 3 formalises the project's schedule into a full network model: every one of
 | [Project Execution Strategy](deliverables/week2/Dovv_Project_Execution_Strategy.pdf) | Week 2 execution approach, monitoring, risk management, communication, and change control |
 | [PM Deliverables Methodology Guide](deliverables/week1/Guide_Methodologique_Livrables_PM.pdf) | General reference guide on the structure and content of each core PM deliverable, independent of this specific case |
 
-## Notable Design Decisions — Weeks 1–2
+## Notable Design Decisions - Weeks 1-2
 
 - **Retention, not acquisition.** The SMART objective explicitly targets DOVV's existing customer base, with customer acquisition marketing intentionally placed out of scope.
 - **Parallel, not sequential, execution.** The WBS reflects that technical development and data collection run concurrently, and that the customer adoption campaign cannot start before the loyalty card itself is available.
